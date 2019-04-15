@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:id="@+id/san"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_gravity="bottom|end"
+        android:background="@mipmap/san" />
+
+    <Button
+        android:id="@+id/fang"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_gravity="bottom|end"
+        android:background="@mipmap/fang" />
+
+    <Button
+        android:id="@+id/quan"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_gravity="bottom|end"
+        android:background="@mipmap/quan" />
+
+    <Button
+        android:id="@+id/cha"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_gravity="bottom|end"
+        android:background="@mipmap/cha" />
+
+    <Button
+        android:id="@+id/muti"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_gravity="bottom|end"
+        android:background="@mipmap/muti" />
+
+
+    <Button
+        android:id="@+id/main"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom|end"
+        android:background="@mipmap/main" />
+
+</merge>

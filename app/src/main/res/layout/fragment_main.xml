@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+
+                android:id="@+id/test"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="测试" />
+
+            <Button
+                android:id="@+id/clock"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="时钟" />
+
+            <Button
+                android:id="@+id/finger_draw"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="画图" />
+
+            <Button
+
+                android:id="@+id/water_wave"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="水波纹" />
+
+            <Button
+                android:id="@+id/round_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="圆形图片" />
+
+            <Button
+                android:id="@+id/bottom_bar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="底部导航栏" />
+
+
+            <Button
+                android:id="@+id/guaguale"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="刮刮乐" />
+
+            <Button
+                android:id="@+id/tween_animation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="补间动画" />
+
+
+
+            <Button
+                android:id="@+id/frame_animation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="逐帧动画" />
+
+            <Button
+                android:textAllCaps="false"
+                android:id="@+id/value_animator"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="属性动画之ValueAnimator" />
+
+            <Button
+                android:textAllCaps="false"
+                android:id="@+id/evaluator"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Evaluator" />
+
+            <Button
+                android:textAllCaps="false"
+                android:id="@+id/clock_alarm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="闹钟响铃--PropertyValuesHolder与Keyframe" />
+
+            <Button
+                android:textAllCaps="false"
+                android:id="@+id/animator_set"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="animator_set" />
+
+            <Button
+                android:textAllCaps="false"
+                android:id="@+id/pop_menu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="弹出菜单" />
+
+            <Button
+                android:textAllCaps="false"
+                android:id="@+id/layout_animation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="layout_animation" />
+
+            <Button
+                android:textAllCaps="false"
+                android:id="@+id/view_pager_indicator"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="自定义viewpager指示器" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

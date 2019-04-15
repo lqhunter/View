@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_int"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IntEvaluator"
+        android:textAllCaps="false" />
+
+    <Button
+        android:textAllCaps="false"
+        android:text="ArgbEvaluator"
+        android:id="@+id/btn_argb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/btn_int" />
+
+    <Button
+        android:id="@+id/btn_hsv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/btn_argb"
+        android:text="HsvEvaluator"
+        android:textAllCaps="false" />
+
+    <com.lq.view.view.GradientColor
+        android:id="@+id/gradient_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>

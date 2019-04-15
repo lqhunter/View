@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/scale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="scale" />
+
+        <Button
+            android:id="@+id/rotate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="rotate" />
+
+        <Button
+            android:id="@+id/alpha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="alpha" />
+
+        <Button
+            android:textSize="12sp"
+            android:id="@+id/translate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="translate" />
+
+        <Button
+            android:textSize="12sp"
+            android:id="@+id/set"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="set" />
+
+
+    </LinearLayout>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.lq.view.HelpView.ScaleOneBg
+            android:layout_gravity="center"
+            android:layout_width="400px"
+            android:layout_height="500px"/>
+
+        <ImageView
+            android:alpha="0.5"
+            android:layout_gravity="center"
+            android:id="@+id/image"
+            android:background="@color/colorAccent"
+            android:layout_width="400px"
+            android:layout_height="500px" />
+
+    </FrameLayout>
+
+
+</LinearLayout>
