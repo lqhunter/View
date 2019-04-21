@@ -121,6 +121,21 @@
                 android:layout_height="wrap_content"
                 android:text="自定义viewpager指示器" />
 
+
+            <Button
+                android:textAllCaps="false"
+                android:id="@+id/my_linearlayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="自定义线性布局" />
+
+            <Button
+                android:textAllCaps="false"
+                android:id="@+id/my_sliding_menu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="侧边字母索引" />
+
         </LinearLayout>
 
 

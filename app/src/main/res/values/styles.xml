@@ -17,9 +17,6 @@
 
     </style>
 
-    <declare-styleable name="ViewPagerIndicatorTab">
-        <attr name="originColor" format="color" />
-        <attr name="changeColor" format="color" />
-    </declare-styleable>
+
 
 </resources>

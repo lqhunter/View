@@ -175,4 +175,16 @@ public class MainFragment extends SupportFragment {
         start(IndicatorFragment.newInstance());
 
     }
+
+    @OnClick(R.id.my_linearlayout)
+    public void onLinearLayoutClicked() {
+        start(MyLinearLayoutFragment.newInstance());
+
+    }
+
+    @OnClick(R.id.my_sliding_menu)
+    public void onSlidingMenuClicked() {
+        start(SideIndexFragment.newInstance());
+
+    }
 }
